@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:#1a7ab9;
+  color: #fff;
+}
+
+.contador {
+  height: 280px;
+  min-width: 300px;
+  background: #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contador h2 {
+  font-size: 36px;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.conta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.btns, .menos,
+.btns, .mais {
+  width: 100px;
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.btns, .reset {
+  width: 100px;
+  font-size: 22px;
+  border-radius: 25px;
+  background: #b5acce2f;
+  text-transform: uppercase;
+}
+
+.btns, .menos,
+.btns, .mais,
+.btns, .reset {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btns, .menos:active,
+.btns, .mais:active {
+  opacity: 0.8;
+}
